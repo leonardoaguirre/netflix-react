@@ -1,27 +1,24 @@
-/* elementos base */
-
-header .container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
+/* elementos base do navBar */
 
 header .logo {
     color: var(--vermelho);
     font-family: 'Bebas Neue', cursive;
     font-size: 40px;
-    margin-left: 10px;
+    margin-left: 20%;
     letter-spacing: 5px;
 }
 
-header nav a {
+.navbar-collapse {
+    margin-left: 5%;
+}
+
+header nav div a {
     text-decoration: none;
     color: #AAA;
     margin-right: 10px;
     transition: .2s ease all;
 }
 
-header nav a:hover {
-    color: #fff;
+header nav div a:hover {
+    color: #ffffff;
 }
