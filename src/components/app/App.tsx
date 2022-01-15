@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import NavBar from '../Navbar';
-import Card from '../Card';
 import CarouselFilmes from '../Carousel';
 import MainCarousel from '../MainCarousel';
 import './responsive.css'
