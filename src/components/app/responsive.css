@@ -18,7 +18,23 @@
 }
 
 @media screen and (max-width: 1000px) {
+    .titulo {
+        width: 70%;
+    }
     .descricao {
         width: 70%;
+    }
+}
+
+@media screen and (min-width: 1001px) {
+    .filme-principal {
+        height: 100%;
+        width: 100%;
+    }
+    .titulo {
+        width: 100%;
+    }
+    .descricao {
+        width: 100%;
     }
 }
