@@ -1,0 +1,27 @@
+/* elementos base */
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    color: var(--vermelho);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    margin-left: 10px;
+    letter-spacing: 5px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+    transition: .2s ease all;
+}
+
+header nav a:hover {
+    color: #fff;
+}
