@@ -1,0 +1,28 @@
+@media screen and (max-width: 700px) {
+    .filme-principal {
+        height: auto;
+        padding-bottom: 5%;
+        padding-top: 5%;
+    }
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .botao {
+        margin-top: 10px;
+        width: 250px;
+    }
+    .titulo {
+        margin-top: 0;
+    }
+    .descricao {
+        width: 50%;
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .descricao {
+        width: 70%;
+    }
+}
